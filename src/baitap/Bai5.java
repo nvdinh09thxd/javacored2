@@ -33,6 +33,6 @@ public class Bai5 {
 		System.out.println("Tổng điểm: " + tongDiem);
 		System.out.println("Số lần đoán: " + soLanDoan);
 		System.out.println("Số lần đoán đúng: " + soLanDoanDung);
-		System.out.println("Tỷ lệ đoán đúng: " + (int) Math.round((float) soLanDoanDung / soLanDoan * 100) + "%");
+		System.out.println("Tỷ lệ đoán đúng: " + Math.round((float) soLanDoanDung / soLanDoan * 100) + "%");
 	}
 }

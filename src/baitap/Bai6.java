@@ -5,8 +5,8 @@ public class Bai6 {
 	public static void main(String[] args) {
 		final int HEIGHT = 5;
 		String result = "";
-		String space = "";
-		String character = "";
+		String space;
+		String character;
 		int line = 1;
 		while (line <= HEIGHT) {
 			space = "";
@@ -15,8 +15,8 @@ public class Bai6 {
 				space += " ";
 			for (int c = 1; c <= 2 * line - 1; c++)
 				character += "*";
-			
-			result += space + character +"\n";
+
+			result += space + character + "\n";
 			line++;
 		}
 		System.out.println(result);

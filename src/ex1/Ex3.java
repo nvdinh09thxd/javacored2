@@ -9,7 +9,7 @@ public class Ex3 {
 				+ " từ lớn sang nhỏ:"+number1);
 		//Sau khi ép kiểu
 		number1 = (int) number1;
-		System.out.println("Number trước khi ép kiểu"
+		System.out.println("Number sau khi ép kiểu"
 				+ " từ lớn sang nhỏ:"+number1);
 	}
 }

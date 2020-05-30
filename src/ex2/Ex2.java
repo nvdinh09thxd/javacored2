@@ -13,8 +13,8 @@ public class Ex2 {
 		System.out.println("Vui lòng nhập tuổi: ");
 		// Cách 1:
 		/*
-		 * int tuoi = input.nextInt(); input.nextLine(); Cách này dài code mà không đúng
-		 * ý nghĩa
+		 * int tuoi = input.nextInt(); 
+		 * input.nextLine(); Cách này dài code mà không đúng ý nghĩa
 		 */
 		// Cách 2:
 		int tuoi = Integer.parseInt(input.nextLine());
