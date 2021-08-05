@@ -5,12 +5,13 @@ import java.util.Scanner;
 public class TroiLenh {
 
 	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
 		System.out.println("a = ");
-		int a = new Scanner(System.in).nextInt();
+		int a = sc.nextInt();
 		System.out.println(a);
 		System.out.println("b = ");
-		String b = new Scanner(System.in).nextLine();
+		String b = sc.nextLine();
 		System.out.println(b);
+		sc.close();
 	}
-
 }
