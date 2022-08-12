@@ -13,7 +13,7 @@ public class Ex1 {
 		// random bắt đầu từ số 0
 		int number2 = rd.nextInt(11) + 10;
 		System.out.println("Số ngẫu nhiên thứ 2: " + number2);
-		
+
 		// tạo số ngẫu nhiên từ a -> b: rd.nextInt(b-a) + a;
 	}
 }
